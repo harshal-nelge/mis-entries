@@ -9,8 +9,8 @@ from datetime import datetime
 
 # Constants
 SERVICE_ACCOUNT_FILE = 'service_account.json'
-SHEET_ID = '1jTrZR3YE0sp-BxKXWsSFkjsEPfFANMfb2lwZwl56iHg'
-PDF_PATH_1 = "Alegria 2025 Final Event List - (2).pdf"  # Already available PDF
+SHEET_ID = '1jTrZR3YE0sp-BxKXWsSFkjsEPfFANMfb2lwZwl56iHg' # replace with your sheet id
+PDF_PATH_1 = "Alegria 2025 Final Event List - (2).pdf"  # pdf for event code and name reference
 
 # Define the scope of access
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
